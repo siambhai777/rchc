@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>রণহাট্টা চৌরঙ্গী উচ্চ বিদ্যালয়</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>রণহাট্টা চৌরঙ্গী উচ্চ বিদ্যালয়</h1>
+    <h2>শিক্ষার্থী পরিচিতি তালিকা</h2>
+  </header>
+
+  <div class="controls">
+    <input type="text" id="searchInput" placeholder="নাম দিয়ে খুঁজুন...">
+    <select id="classFilter">
+      <option value="all">সকল শ্রেণি</option>
+      <option value="নবম">নবম</option>
+      <option value="দশম">দশম</option>
+    </select>
+    <select id="sortMarks">
+      <option value="default">ফলাফল অনুযায়ী সাজান</option>
+      <option value="high">উচ্চ নম্বর আগে</option>
+      <option value="low">নিম্ন নম্বর আগে</option>
+    </select>
+  </div>
+
+  <div id="studentList">
+    <div class="student-card" data-name="আরিফুল ইসলাম" data-class="দশম" data-marks="487">
+      <img src="student1.jpg" alt="Student 1">
+      <h2>নাম: আরিফুল ইসলাম</h2>
+      <p>শ্রেণি: দশম</p>
+      <p>রোল: ১</p>
+      <p>মোট নম্বর: 487</p>
+      <a href="profile-ariful.html" class="btn">বিস্তারিত দেখুন</a>
+    </div>
+
+    <div class="student-card" data-name="মাহমুদুল হাসান" data-class="দশম" data-marks="495">
+      <img src="student2.jpg" alt="Student 2">
+      <h2>নাম: মাহমুদুল হাসান</h2>
+      <p>শ্রেণি: দশম</p>
+      <p>রোল: ২</p>
+      <p>মোট নম্বর: 495</p>
+      <a href="profile-mahmudul.html" class="btn">বিস্তারিত দেখুন</a>
+    </div>
+
+    <div class="student-card" data-name="নুসরাত জাহান" data-class="নবম" data-marks="478">
+      <img src="student3.jpg" alt="Student 3">
+      <h2>নাম: নুসরাত জাহান</h2>
+      <p>শ্রেণি: নবম</p>
+      <p>রোল: ৫</p>
+      <p>মোট নম্বর: 478</p>
+      <a href="profile-nusrat.html" class="btn">বিস্তারিত দেখুন</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; ২০২৫ রণহাট্টা চৌরঙ্গী উচ্চ বিদ্যালয়</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
